@@ -98,7 +98,7 @@ public:
 	float prevMouseY;
     
     //fft related
-//    void audioReceived(float* input, int bufferSize, int nChannels);
+    void audioReceived(float* input, int bufferSize, int nChannels);
     FFTOctaveAnalyzer FFTanalyzer;
     float left[BUFFER_SIZE];
     float right[BUFFER_SIZE];
